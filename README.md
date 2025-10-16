@@ -1,8 +1,8 @@
-# Formify
+# Vicyfy
 
 Integrate your google form with AI 🚀 and let it solve them for you (Auto google-form solver 🐍)
 
-## Google Formify Features 🐱
+## Google Vicyfy Features 🐱
 
 - Show AI answers at the bottom of your question
 - Auto-select the correct option according to AI aswer
