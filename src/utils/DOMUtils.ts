@@ -57,7 +57,7 @@ const answerModal = ({ options, question, answer }: AnswerModalParam): HTMLDivEl
             text: "Re-generate",
             onclick: async (e) => {
                 e.preventDefault();
-                body.textContent = "Re-generating answer... 🦕";
+                body.textContent = "Ma nigga regenerating";
 
                 const response = await getAIResponse({
                     prompt: getItem("customPrompt") + "\n" + question + option,
@@ -169,8 +169,8 @@ async function sendMessage(msg: string = ""): Promise<void> {
             const aiResponse: string = await getAIResponse({ prompt: message });
             addMessage(aiResponse, false);
         } catch (error) {
-            addMessage("Error: Could not get AI response.", false);
-            console.error("Error fetching AI response:", error);
+            addMessage("Error: Could not get response.", false);
+            console.error("Error fetching response:", error);
         }
     }
 }
