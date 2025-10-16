@@ -26,7 +26,7 @@ declare const GM_addElement: (type: string, options: { textContent: string }) =>
         if (apiKey) {
             setItem("apiKey", apiKey);
         } else {
-            alert("API key is required to interact with the AI model.");
+            alert("API key is required to interact with the model.");
         }
     }
 
